@@ -1,0 +1,88 @@
+/* The title */
+.title {
+    font-weight: 50;
+}
+
+/* The description */
+.desc {
+    font-size: 1em;
+    font-family: Georgia, serif;
+}
+
+/* Text-centering */
+.title,
+.desc,
+.intro {
+    text-align: center;
+}
+
+img {
+    width: 97%;
+}
+
+.masonry {
+    column-count: 4;
+    gap: 20px;
+}
+
+.masonry .mItem {
+    display: inline-block;
+    margin-top: 18px;
+    width: 100%;
+    position: relative;
+}
+
+@media (max-width: 1199px) {
+    .masonry {
+        column-count: 3;
+    }
+}
+
+@media (max-width: 991px) {
+    .masonry {
+        column-count: 2;
+    }
+}
+
+@media (max-width: 767px) {
+    .masonry {
+        column-count: 1;
+    }
+}
+
+/* CUSTOME CSS ADDED BY ALI */
+.overlay {
+    opacity: 0;
+    position: absolute;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(1, 1, 1, 0.5);
+    top: 0;
+    left: 0;
+    text-align: center;
+    width: 97%;
+    height: 98%;
+}
+
+.text {
+    font-size: 150%;
+    display: inline-block;
+    margin-top: 30%;
+    color: white;
+}
+
+.overlay:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+<!--
+.style1 {
+    color: #666666
+}
+
+.style2 {
+    color: #000000
+}
+-->
